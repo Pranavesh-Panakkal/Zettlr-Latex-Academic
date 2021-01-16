@@ -1,0 +1,92 @@
+/* Changes the color of mailto links (in this case blue) */
+/*
+:root {
+  --green-0: rgb(220,220,220);
+}
+*/
+
+body #toolbar {
+    background-color: rgb(255 255 255 );
+
+}
+
+body #file-tree #directories-dirs-header, body #file-tree #directories-files-header {
+    display: none;
+}
+:root {
+    --c-primary: rgb(220,220,220);
+    --c-primary-shade: rgb(220,220,220);}
+
+body #editor .CodeMirror .cm-formatting-list-ul, body .quicklook .body .CodeMirror .cm-formatting-list-ul, body .dialog .CodeMirror .cm-formatting-list-ul, body #editor .CodeMirror .cm-formatting-list-ol, body .quicklook .body .CodeMirror .cm-formatting-list-ol, body .dialog .CodeMirror .cm-formatting-list-ol{
+color: rgb(0,0,0)
+}
+
+body #editor .CodeMirror .cm-quote, body .quicklook .body .CodeMirror .cm-quote, body .dialog .CodeMirror .cm-quote, body #editor .CodeMirror .cm-link, body .quicklook .body .CodeMirror .cm-link, body .dialog .CodeMirror .cm-link, body #editor .CodeMirror .cm-strong, body .quicklook .body .CodeMirror .cm-strong, body .dialog .CodeMirror .cm-strong, body #editor .CodeMirror .cm-em, body .quicklook .body .CodeMirror .cm-em, body .dialog .CodeMirror .cm-em{
+    color: rgb(0 0 0);
+}
+
+body #editor .CodeMirror .cm-zkn-tag, body .quicklook .body .CodeMirror .cm-zkn-tag, body .dialog .CodeMirror .cm-zkn-tag, body #editor .CodeMirror .cm-zkn-id, body .quicklook .body .CodeMirror .cm-zkn-id, body .dialog .CodeMirror .cm-zkn-id, body #editor .CodeMirror .cm-zkn-link, body .quicklook .body .CodeMirror .cm-zkn-link, body .dialog .CodeMirror .cm-zkn-link, body #editor .CodeMirror .cm-zkn-link-formatting, body .quicklook .body .CodeMirror .cm-zkn-link-formatting, body .dialog .CodeMirror .cm-zkn-link-formatting, body #editor .CodeMirror .cm-footnote-formatting, body .quicklook .body .CodeMirror .cm-footnote-formatting, body .dialog .CodeMirror .cm-footnote-formatting{
+  color:rgb(0,0,0)
+}
+
+body .cm-quote, body .cm-link, body .cm-strong, body .cm-em {
+    color: rgb(0,0,0);
+}
+
+/*
+.citeproc-citation {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.citeproc-citation {
+  color: #cb4335;
+}
+
+
+
+body.dark .citeproc-citation {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.citeproc-citation {
+  background-color:#50505a00
+}
+*/
+/*169*/
+
+
+body #document-tabs .document.active{
+  color: rgb(0,0,0)
+}
+
+/* Background of file-tree*/
+body #file-tree div.list-item.project.selected{
+  color: rgb(0,0,0)
+}
+body #file-tree div.list-item.selected{
+  /*background-color: rgb(220,220,220);*/
+  color: rgb(0,0,0)
+}
+body #file-tree {
+  background-color: rgb(255,255,255);
+  font-family: 'CMU Serif', serif;
+}
+/*
+body #file-tree div.list-item.selected{
+  background-color: rgb(225,225,225);
+}
+*/
+.CodeMirror-gutter-wrapper {
+  display: none;
+  visibility: hidden;
+}
+
+body #editor .CodeMirror {
+  font-family: 'CMU Serif', serif;
+}
+
+.CodeMirror {text-align: justify}
+
+body.show-menubar #editor.fullscreen, #editor.fullscreen, .CodeMirror-fullscreen{
+  top: 0px;
+}
