@@ -1,18 +1,11 @@
-/* Changes the color of mailto links (in this case blue) */
-/*
-:root {
-  --green-0: rgb(220,220,220);
-}
-*/
-
-body #toolbar {
-    background-color: rgb(255 255 255 );
-
-}
-
 body #file-tree #directories-dirs-header, body #file-tree #directories-files-header {
     display: none;
 }
+
+body #toolbar {
+    background-color: rgb(255 255 255 );
+}
+
 :root {
     --c-primary: rgb(220,220,220);
     --c-primary-shade: rgb(220,220,220);}
@@ -33,28 +26,6 @@ body .cm-quote, body .cm-link, body .cm-strong, body .cm-em {
     color: rgb(0,0,0);
 }
 
-/*
-.citeproc-citation {
-  background-color: rgba(0, 0, 0, 0.25);
-}
-
-.citeproc-citation {
-  color: #cb4335;
-}
-
-
-
-body.dark .citeproc-citation {
-    background-color: rgba(0, 0, 0, 0.25);
-}
-
-.citeproc-citation {
-  background-color:#50505a00
-}
-*/
-/*169*/
-
-
 body #document-tabs .document.active{
   color: rgb(0,0,0)
 }
@@ -71,11 +42,7 @@ body #file-tree {
   background-color: rgb(255,255,255);
   font-family: 'CMU Serif', serif;
 }
-/*
-body #file-tree div.list-item.selected{
-  background-color: rgb(225,225,225);
-}
-*/
+
 .CodeMirror-gutter-wrapper {
   display: none;
   visibility: hidden;
