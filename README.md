@@ -10,7 +10,7 @@ This Zettlr custom theme is inspired by Academic theme of Typora and Latex PDF o
 3. Paste to Zettlr menu File -- Preferences -- Custom CSS and save 
 
 ## Instructions to install 'CMU Serif' font
-- Download the file from https://sourceforge.net/projects/cm-unicode/ or other sources
+- Download font file from https://sourceforge.net/projects/cm-unicode/ or other sources
 
 Part of the code here is reused from https://github.com/jegornagel/zettlr-sublime
 
