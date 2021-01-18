@@ -1,4 +1,4 @@
-# Zettlr-Latex-Academic
+# Zettlr-LaTeX-Academic
 
 This Zettlr custom theme is inspired by Academic theme of Typora and Latex PDF output. 
 
